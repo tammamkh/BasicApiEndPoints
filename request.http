@@ -1,0 +1,19 @@
+# //GET all items: 
+
+# GET http://localhost:5071/items
+
+# GET item by index: 
+
+#GET http://localhost:5071/items/2
+
+//POST new item: 
+//POST http://localhost:5071/items
+#Body: raw (text/plain) e.g., "NewItem"
+
+# PUT update item:
+
+#PUT http://localhost:5071/items/1
+#Body: raw (text/plain) e.g., "UpdatedItem"
+
+# //DELETE item: 
+DELETE http://localhost:5071/items/2
